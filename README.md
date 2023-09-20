@@ -16,7 +16,7 @@ Tasks during this section include:
 - Changing the type of columns (to_numeric, to_datetime, astype)
 
 ## Data Exploration
-After cleaning up the data a bit, data exploration is done. In this section I explored 5 high level business questions related to the data:
+After cleaning up the data, data exploration is done. In this section I explored 5 high level business questions related to the data:
 - What was the best month for sales? How much was earned that month?
 - What city sold the most product?
 - What time should we display advertisemens to maximize the likelihood of customer’s buying product?
