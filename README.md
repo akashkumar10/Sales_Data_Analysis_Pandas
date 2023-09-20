@@ -7,23 +7,23 @@ To access all of the files I recommend you fork this repo and then clone it loca
 The other option is to click the green "clone or download" button and then click "Download ZIP". You then should extract all of the files to the location you want to edit your code.
 
 ## Backgroud Information: 
-I used Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
+Used Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc.
 
 ## Data Cleaning
-We start by cleaning our data. Tasks during this section include:
-- Drop NaN values from DataFrame
+Tasks during this section include:
+- Dropping NaN values from DataFrame
 - Removing rows based on a condition
-- Change the type of columns (to_numeric, to_datetime, astype)
+- Changing the type of columns (to_numeric, to_datetime, astype)
 
 ## Data Exploration
-Once we have cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
+After cleaning up the data a bit, data exploration is done. In this section I explored 5 high level business questions related to the data:
 - What was the best month for sales? How much was earned that month?
 - What city sold the most product?
 - What time should we display advertisemens to maximize the likelihood of customer’s buying product?
 - What products are most often sold together?
-- What product sold the most? Why do you think it sold the most?
+- What product sold the most? Why it was sold the most?
 
-To answer these questions we walk through many different pandas & matplotlib methods. They include:
+To answer these questions I walked through many different pandas & matplotlib methods. They include:
 - Concatenating multiple csvs together to create a new DataFrame (pd.concat)
 - Adding columns
 - Parsing cells as strings to make new columns (.str)
